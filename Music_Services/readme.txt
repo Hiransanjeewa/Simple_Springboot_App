@@ -1,0 +1,2 @@
+Grafana password - jLj7eAquOdtbhnoJsgQrNge05qgfQKCZ8nbFX6AJ
+username admin

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: music-services
+  labels:
+    app: music-services
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: music-services
+  template:
+    metadata:
+      labels:
+        app: music-services
+    spec:
+      containers:
+      - name: music-services
+        image:  hiransanjeewa/getting-started 
+        ports:
+        - containerPort: 8087
+
